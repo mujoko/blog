@@ -28,6 +28,7 @@ $ source .venv/bin/activate\
 (.venv) $ python -m pip install black\
 (.venv) $ django-admin startproject django_project .\
 (.venv) $ python manage.py startapp blog\
+(.venv) $ python manage.py makemigrations\
 (.venv) $ python manage.py migrate\
 
 
