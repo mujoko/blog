@@ -1,4 +1,4 @@
-# blog
+# Blog
 Djanggo
 Initial Set Up\
 The setup for this project is similar to past examples in this book:\
@@ -52,10 +52,10 @@ Superuser created successfully.
 
 
 # django_project/settings.py
-TEMPLATES = [
+'''TEMPLATES = [
     {
         ...
         "DIRS": [BASE_DIR / "templates"], # new
         ...
     },
-]
+]'''
